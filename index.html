@@ -6,13 +6,21 @@
     <title> sarajul | software developer</title>
     <meta name="description" content=" A software engineer who want to buil impactful software" />
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="twitter:card" content="@srajul"/>
     <style>
 
         body {
             max-width: 1200px;
-            margin: 0 auto;
-            
+            margin: 0 auto;     
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.8rem;
+        }
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 0.8rem;
         }
 
         nav{
@@ -46,12 +54,8 @@
             border-top-right-radius: 15px;
             border-bottom-right-radius: 15px;  
         }
-        .text-link h1{
-            font-size: 40px;
-        }
-        .text-link p{
-            font-size: 30px;
-        }
+       
+      
         .project-list{
             display: flex;
             justify-content: center;
@@ -123,20 +127,97 @@
         .social-link:hover{
             background-color: black;
         }
-        
-        @media screen and (max-width: 450px) {
-            body {
-                background-color: blue;
-                width: 300px;
+
+        @media screen and (max-width:420px) {
+            h1 {
+                font-size: 1.8rem;
+                margin: 0.8rem;
+
             }
 
-            .text-link h1{
+            p {
+                font-size: 1.5rem;
+                margin: 0.8rem;    
+            }
+
+            #section-home{
+                flex-direction: column;
+                margin-bottom: 20px;
+                max-height: 500px;
+                justify-content: center;
+                align-items: center;
+                
+            }
+
+            #section-home img {
+                height: 255px;
+                justify-content: center;
+                align-items: center;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
+            }
+            .project-list{
+                flex-direction: column;
+                
+            }
+
+            .project-50 img{
+                width: 300px;
+                
+            }
+            .project-piyuu img{
+                width: 300px;
+            }
+            .project-piyuu{
+                justify-content: center;
+                align-items: center;
+                margin: 20px;
+            }
+
+            .project-50{
+                width:87%;
+            }
+            span{
+                color: yellow;
+            }
+            #project-Paymento p{
+                font-size: 1.2rem;
+            }
+            #project-taskaro p{
+                font-size: 1.2rem;
+            }
+
+            .project-piyuu p{
+                font-size: 1.2rem;
+            }
+            #section-contact p{
+                font-size: 1.1rem;
+            }
+
+            #section-contact h1{
                 font-size: 1.5rem;
             }
-            .text-link p{
-                font-size: 1rem;
+            #section-contact a{
+                font-size: 1.2rem;
             }
-}
+
+            .social-link{
+                margin: 0px;
+                height: 45px;
+                width: 45px;
+                border-radius: 100%;
+                /* align-items: center;
+                background-color: white;
+                display: inline-flex;
+                justify-content: center; */
+
+                
+            }
+
+
+           
+        }
+
     </style>
 
 </head>
@@ -156,7 +237,7 @@
     <section id="section-home">
 
         <div class="text-link">
-            <h1>Hey! i'm Md sarajul haque, a software developer with 1 year experiance</h1>
+            <h1>Hey! i'm <span>Md sarajul haque</span> , a software developer with 1 year experiance</h1>
             <p> I care a lot about crafting quality software that brings delightful experiance to the customers.</p>
         </div>
 

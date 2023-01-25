@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hearing site</title>
+
+    <style>
+        body{
+            margin: 0;
+            
+        }
+        .hero-section{
+            background-color: rgba(58, 10, 10, 0.6);
+            height: 100vh;
+        }
+        .hero-section img{
+            object-fit: cover;
+            height: 100vh;
+            width: 100vw;
+            z-index: -10;
+            position: absolute;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            color: white;
+        }
+        .section-details{
+            margin: 30px;
+        }
+        .section-details > a{
+            justify-content: space-between;
+            margin:15px ;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 4px;
+            
+        }
+
+        span{
+            color: white;
+            border-radius: 4px;
+            background-color: red;
+            padding: 6px;  
+        }
+        .heading{
+            margin: 30px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        
+        .left{
+            color: white;
+            width: 41%;
+            margin: 30px;
+            font-size: 20px;
+
+            
+            
+        }
+        
+        .left-side{
+            color: white;
+            width: 41%;
+            margin: 30px;
+            font-size: 20px;
+            margin-top: 200px;
+        }
+
+        .satisfaction{
+            height: 350px;
+            width: 300px;
+            color: white;
+            background-color: rgba(15, 1, 1);
+            position: absolute;;
+            bottom: 20px;
+            right: 20px;
+            align-items: left;
+            border-radius: 8px;
+            padding: 25px;
+
+        }
+        
+
+        hr {
+            display: flex;
+        }
+        .left-side>p{
+            font-size: 25px;
+
+        }
+
+        .column{
+            border: 3px solid white;
+            border-radius: 100%;
+            height: 50px;
+            width: 50px; 
+            z-index: 4;
+          
+        }
+        .column img{
+            height: 50px;
+            width: 50px;
+            border-top-left-radius: 100%;
+            border-bottom-left-radius: 100%;
+            border-top-right-radius: 100%;
+            border-bottom-right-radius: 100%;
+            object-fit: cover;
+            z-index: 4;
+        }
+        .row{
+            display: flex;
+            margin-right: 0px;
+        }
+        .text{
+            margin-left: 5px;
+            padding-top: 10px;
+            font-weight: bold;
+        }
+        .text h1{
+            font-size: 15px;
+            margin-top: 10px;
+            font-weight: 10;
+        }
+        .text p{
+            width: 70%;
+            margin-top: 75px;
+            font-size: medium;
+            font-weight: normal;
+
+        }
+        
+        #left{
+            float: left;
+            margin-right: 17px;
+            margin-top: 70px;
+            font-size: 25px;
+
+        }
+        #right{
+            float: right;
+            margin-top: 75px;
+            font-weight: bold;
+            
+        }
+        #right span{
+            color: black;
+            border-radius: 4px;
+            background-color: white;
+            padding: 6px;  
+        }
+        
+        
+        
+        
+            
+    </style>
+</head>
+
+<body>
+    <section class="hero-section">
+        <img src="images/hearnic-background.jpeg" alt="">
+
+        <nav>
+
+            <div class="heading">HEARING</div>
+            <div class="section-details">
+                <a href="">Home</a>
+                <a href="">About Us</a>
+                <a href="">Specialists</a>
+                <a href="">Doctor</a>
+                <a href="">Contact</a>
+                <a href=""><span>+91-9090900900</span></a>
+            </div>
+
+        </nav>
+
+        <div class="left">
+            <h1>Over past decade, we have provided hundereds of hearing aids and speech therapy service.</h1>
+        </div>
+        
+        <div class="left-side">
+            <h1>Facts</h1>
+            <p>Premium equipment that meets state-of-the-art in the hearing industry</p>
+            <hr>
+            <p>Professionals in their field,who can be trusted and get the best results</p>
+        </div>
+
+        <div class="satisfaction">
+
+            <div class="row">
+                <div class="column">
+                  <img src="images/old-man-1.jpeg" alt="image" >
+                </div>
+                <div class="column">
+                  <img src="images/old-man-2.jpeg" alt="image" >
+                </div>
+                <div class="column">
+                  <img src="images/old-man-3.jpeg" alt="image" >
+                </div>
+                <div class="column">
+                  <img src="images/old-man-4.jpeg" alt="image" >
+                </div>
+              </div>
+
+            <div class="text">1000+
+                <h1>Satisfied patients</h1>
+                <p>Take the discount for the first visit of an audiologist</p>
+                <div id="left">20%</div>
+                <div id="right"><span>Make an appointment</span></div>
+                
+                
+            </div>
+
+
+
+        </div>
+
+    </section>
+    
+    
+
+</body>
+</html>

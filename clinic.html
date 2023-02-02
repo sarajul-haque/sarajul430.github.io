@@ -10,7 +10,7 @@
 
         body{
             margin: 0;
-            padding-right: -10px;
+            padding-right: 0px;
 
 
         }
@@ -18,14 +18,16 @@
             height: 100vh;
             background-color: rgba(58, 10, 10, 0.6);
             width: 0 auto;
+           
         }
         .hero-section img{
             object-fit: cover;
             height: 100vh;
-            width: 98.5vw;
+            width: 99vw;
             z-index: -10;
             position: absolute;
             padding-right: -10px;
+            
         }
         .site-detail{
             margin-left: 10px;
@@ -73,7 +75,7 @@
             width: 35%;
             margin: 40px;
             font-size: 20px;
-            margin-top: 228px;
+            margin-top:170px;
         }
         .satisfaction{
             height: 318px;
@@ -86,17 +88,18 @@
             align-items: left;
             border-radius: 8px;
             padding: 25px;
+            
         }
         
         hr {
-            margin-top: 40px; 
+            margin-top: 50px; 
             margin-right: 25px; 
         }
         .left-side>p{
             font-size: 18px;
             font-weight: normal;
-            margin-top: 25px;
-            bottom: 20px;
+            margin-top: 65px;
+            bottom: 30px;
 
         }
         .images{
@@ -210,125 +213,106 @@
 
 /* ----------------------------------------------- About section -------------------------------------------------*/
 
-body{
-        margin: 0;
-        
-    }
-    main{
-        display: flex;
-        justify-content: space-between;
-        padding: 0px;
-        margin-top: 20px;
+    
+.about-left-part{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin-top: 80px;  
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+.about-left-part h2{
+    margin: 30px;
+    margin-top: 18px;
+}
+.about-left-part p{
+    width: 80%;
+}
+.about-left-part img{
+    margin-top: 20px;
+}
+.about-left-part button{
+    border-radius: 17px;
+      background-color: black;
+      border: 4px solid;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+}
+
+.arrow img{
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 100%;
+    border: 1px solid; 
+    /* margin-left: 60px;  */
+    justify-content: center;
       
-        
-    }
-    main{
-        display: flex;
-        padding: 0px;
-    }
-    .arrow img{
-        height: 30px;
-        margin-top: 15px;
-        border-radius: 100%;
-        border: 1px solid; 
-        margin-left: 40px; 
-          
-    }
-    .arrow{
-        padding: 20px;
-        margin-top: 276px;
-        margin-right: 60px;
-    }
-    .last{
-        padding: 20px;
-        margin-top: -10px;
-    }
-    .sec{
-        padding: 10px;
-        margin-top: 278px;
-        font-size: 15px;
-        margin-left: -93px;
-        margin-right: 119px;
-        width: 40%;
-    }
-    .sec h1{
-        margin-right: 10px;
-    }
-    .item img{
-        height: 205px;
-        padding: 20px;
-        margin-left: 0px;
-        width: 407px;
-        margin-right: 44px;
-    }
-    .item{
-        padding: 0px;
-        margin-top: 10px;
-        margin-left: 54px;   
-    }
-    .first, .second,.third{
-        display: flex;
-        width: 100%;
-        margin-left: -60px;
-        margin-top: -40px;   
-    }
-    .second{
-        margin-top: 20px;
-    }
-    .third{
-        margin-top: 20px;
-    }
-    .f1,.f2,.f3,.f4,.f5,.f6{
-        width: 50%;
-        font-size: 18px;
-    }
-    .f1,.f3,.f5{
-        width: 40%;
-        font-size: 18px;
-    }
-    .f1 hr,.f3 hr,.f5 hr{
-        width: 100%;
-        font-size: 18px;
-    }
-    .item2 button{
-        border-radius: 17px;
-          background-color: black;
-          border: 4px solid;
-    }
-    .item2{
-        padding: 20px;
-        font-size: 1rem;
-        margin-left: -10px;
-        margin-right: 100px;
-        width: 40%;
-    }
-    .item2 h1{
-        font-size: 2rem;
-    }
-    button{
-        color: white;
-        padding-left: 9px;
-        padding-top: 2px;
-        padding-bottom: 2px;
-        padding-right: 9px;
-        ;
-    }
+}
+.arrow{
+    padding: 20px;
+    
+    justify-content: center;
+    /* margin-right: 60px; */
+}
+.about-feature-part{
+    display: grid;
+    padding: 0px;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    row-gap: 10px;
+    justify-content: space-between;
+    margin-right: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.about-arr h1{
+    width: 80%;
+   
+}
+.about-feature-part p{
+    width: 110%;
+}
+.about-arr{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  
+}
+.about-arr img, .about-arr h1{
+    
+    margin-top: 345px;
+}
+.about-arr img{
+    margin-top: 325px;
+}
 
-    .item > a{
-        padding: 10px;  
-    }
-    .item h4{
-        margin-top: -2px;
-    }
 
+button{
+    color: white;
+    padding-left: 9px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 9px;
+    
+}
+.about-feature-part hr{
+    width: 100%;
+}
 /* --------------------------------------------------Gallery---------------------------------------------------------------- */
+
 
 .section-gallery{
         display: flex;
         padding: 0px;
         justify-content: space-between;
+        max-width: 1200px;
         margin: 0 auto;
-        margin-top: 50px;
+        
     }
     .gallery-lower h4, .gallery-lower p{
         margin-top: 5px;
@@ -341,22 +325,22 @@ body{
         padding: 10px;
         display: flex;
         margin-top: 3px;
-        margin-left: 50px;
+        /* margin-left: 10px; */
         font-weight: bold;
-        font-size: small;
-        
+
     }
-    
-    
+
     .gal2{
         display: flex;
         justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
 
     }
     .gal3{
         margin-left: 245px;
         margin-top: 10px;
-        margin-right: 199px;
+        margin-right: 60px;
         
     }
 
@@ -377,13 +361,13 @@ body{
           background-color: white;
           border: 1px solid;
           margin-left: 2px;
-          justify-content: center;
+          justify-content: end;
     }
     .middle-upper{
-        margin-left: -250px;
+        /* margin-left: -250px; */
         margin-top: 10px;
         width: 25%;
-        margin-right: -50px;
+        margin-right: 50px;
         
         
     }
@@ -401,6 +385,7 @@ body{
         margin-left: 0px;
         margin-top: 150px;
         margin: auto;
+        justify-content: center;
     }
     
     .gallery-left-img {
@@ -439,47 +424,53 @@ body{
             margin-top: 200px;
     }
 
+
     /*------------------------------------------------service section------------------------------------------------- */
 
-.service-section{
-    display: flex;
-    padding: 40px;
-    margin-left: 156px;
-    margin-top: 80px; 
-}
+    .service-section{
+        display: flex;
+        
+        justify-content: space-around;
+        /* margin-left: 15px; */
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-top: 200px;
+       
+    }
 
-.service {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    margin-right: 10px;
+    .service {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 30px;
+    }
+
+    .service2 hr{
+        margin-top: 15px;
+        margin-right: 30px;
     
-}
 
-.service2 hr{
-    margin-top: 15px;
-    margin-right: 0px;
 }
 .service img{
     margin-top: 20px;
-    margin-left: 595px;
+    margin-left: 550px;
     justify-content: space-between;
     
 }
 .service1{
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-left: -9px;
     
-    margin-left: -75px;
+  
 }
-.service1 h4{
-    margin-left: -55px;
-    margin-top: -30px;
-}
-.service2{
-    margin-left: 180px;
-    
 
+.service2{
+    margin-left: 50px;
+    justify-content: center; 
+}
+
+.service2 h1{
+    font-size: 2.5rem;
     
 }
 .service2 button{
@@ -489,21 +480,35 @@ body{
     font-weight: bold;
     border-radius: 10px;
     background-color: white;
-    
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+}
+#all{
+    background-color: black;
+    color: white;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-right: 35px;
+    padding-bottom: 5px;
+    border-radius: 35px;
 }
 
 
 .service-image{
     display: flex;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     margin-top: 40px;
+    justify-content: center;
     
 }
 .lower-service{
     height: 200px;
     width: 373px;
     background-color: rgb(83, 63, 63);
-    margin-left: 260px;
+    margin-left: 50px;
     color: white;
 }
     
@@ -539,7 +544,7 @@ body{
 }
 .lower-service-right img{
     margin-top: -20px;
-    margin-left: 1px;
+    margin-left: -111px;
 }
 .last-part{
     display: flex;
@@ -558,10 +563,6 @@ body{
 }
 .last-sec p{
     font-size: 9px;
-
-}
-.ser-doc{
-    margin-left: -110px;
 }
 
 
@@ -571,7 +572,10 @@ body{
     margin: 20px;
     display: flex;
     margin-left: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
     margin-top: 100px;
+ 
 }
 
 .ar{
@@ -580,12 +584,12 @@ body{
     border-radius: 100%;
     height: 130px;
     width: 130px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     display: inline-flex;
     justify-content: center;
-    margin-left: -250px;
-    /* margin-right: 32px; */
+    margin-left: -150px; 
     margin-top: 6px;
+    /* margin-right:50px ; */
     
 }
 
@@ -616,13 +620,15 @@ body{
   height: 0px;
 }
 .doc-middle h1, .doc-middle p{
-  margin-left: 250px;
+  margin-left: 100px;
   margin-right: 290px;
   width: 35%;
   justify-content: start;
+
 }
 .doc-middle h1{
     width: 30%;
+    font-size: 2rem;
 }
 .doc-middle p{
     width: 30%;
@@ -643,10 +649,9 @@ body{
     
 }
 .upper-d{
-    margin-top: 15px;
+    margin-top: 0px;
     font-weight: bold;
-    
-    margin-left: 20px;
+    margin-left: 30px;
 }
 /* ------------------------------------------------section Review--------------------------------------------------- */
 
@@ -654,18 +659,20 @@ body{
     display: flex;
     margin: 20px;
     margin-left: 40px;
-    margin-top: 90px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
 }
 .all-doc{
     border: 1px solid gainsboro ;
     border-radius: 100%;
-    height: 120px;
-    width: 120px;
+    height: 140px;
+    width: 140px;
     margin-top: 11px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    margin-left: -215px;
+    margin-left: -175px;
     background-color: rgb(244, 244, 244);
 }
 .text-rev h4{
@@ -705,31 +712,41 @@ body{
     justify-content: center;
     background-color: rgb(203, 197, 197);
     margin-top: 0px;
-    margin-left: 158px;
+    margin-left: 175px;
+    
 }
 .rev-lower{
     display: flex;
     margin-left: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .text-rev{
     margin-left: 30px;
 }
 .left-rev{
     margin-left: 30px;
-    width: 50%;
+    width: 70%;
 }
 .upper-text{
-    margin-left: 190px;
+    margin-left: 100px;
     margin-right: 10px;
     margin-top: 10;
 }
 .upper-text h1, .upper-text p{
-    margin-right: 500px;
+    margin-right: 500px;   
 }
+.upper-text h1{
+    font-size: 2rem;
+}
+.upper-text p{
+    font-size: 1.2rem;
+}
+
 .rev{
     margin-top: 10px;
-    font-weight: bold;
-    margin-left: 40px;
+    /* font-weight: bold; */
+    margin-left: 30px;
 }
 .upper-text p{
     margin-top: -10px;
@@ -751,6 +768,8 @@ body{
     width: auto;
     background-color: rgb(45, 55, 113);
     padding-bottom: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .appo-upper{
@@ -967,34 +986,39 @@ body{
 
 /* -----------------------------------------------section-FAQ------------------------------------------------ */
 
+#FAQ{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .faq{
     display: flex;
     margin: 20px;
+    
 }
 .faq-service{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 297px;
-    margin-right: 125px;
+    margin-left: 190px;
+    margin-right: 0px;
     
 }
 
 .hrs{
-    margin-left: 297px;
+    margin-left: 190px;
     margin-top: 10px;
-    margin-right: 125px;
+    margin-right: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .faq-tag{
-    margin-top: 10px;
-    margin-left: 40px;
+    margin-top: 35px;
+    margin-left: 20px;
 }
 .faq-heading{
-    margin-left: 180px;
+    margin-left: 85px;
     width: 50%;
    margin-bottom: 0px;
    margin-top: 20px;
@@ -1008,21 +1032,26 @@ body{
 .partner{
         display: flex;
         margin: 20px;
-        margin-top: 60px;
-        margin-left: 20px;
+        margin-top: 100px;
+        margin-left: 0px;
+        max-width: 1200px;
+        margin: 0 auto;
     }
    
     .part-heading{
         margin-top: 13px;
-        margin-left: 165px;
+        margin-left: 80px;
         width: 50%;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.5rem;
     }
     .partner-image img{
      border: 1px solid gray;
      border-radius: 100%;
-     height: 70px;
-     width: 70px;
-     margin: 5px;
+     height: 75px;
+     width: 75px;
+     margin: 10px;
      background-color: rgb(241, 246, 246);
      padding-left: 20px;
      padding-top: 20px;
@@ -1033,15 +1062,20 @@ body{
     .partner-image{
         display: flex;
         justify-content: center;
-        margin-top: 60px;
+        margin-top: 50px;
         margin-left: -30px;
     }
     .part-tag{
-        margin-left: 45px;
+        margin-left: 35px;
+        margin-top: 20px;
     }
 
      /* -----------------------------------------------section-Blog---------------------------------------------- */
 
+     #Blog{
+        max-width: 1200px;
+        margin: 0 auto;
+     }
      .blog{
         display: flex;
         margin: 10px;
@@ -1059,8 +1093,8 @@ body{
     .blog-arrow{
         padding: 20px;
         display: flex;
-        margin-top: -25px;
-        margin-left: 240px;
+        margin-top: -15px;
+        margin-left: 260px;
           
     }
 
@@ -1070,30 +1104,30 @@ body{
         
     }
     .blog-tag{
-        margin-top: -18px;
-        margin-left: 65px;
-        font-size: 18px;
+        margin-top: 8px;
+        margin-left: 20px;
+        /* font-size: 18px; */
     }
     .blog-heading{
-    margin-left: 175px;
+    margin-left: 75px;
     width: 50%;
     margin-top: 15;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.4rem;
     }
 
     .blog-lower{
         display: flex;
-        margin-left: 100px;
+        margin-left: 0px;
         margin-top: 30px;
         justify-content: center;
-  
-  
+
 }
 .blog-lower img{
   height: 250px;
   background-color: rgb(243, 245, 246);
-
-  
-
+    
 }
 .ims{
   margin-left: 165px;
@@ -1104,8 +1138,8 @@ body{
     margin-right: 50;
 }
 .blog-img{
-    width: 240px;
-    margin-left: -88px;
+    width: 200px;
+    margin-left: -68px;
 }
 
 .blog-lower button{
@@ -1127,9 +1161,10 @@ body{
 /* -------------------------------------------------------section-contact---------------------------------------------- */
 
 #contact{
-        width: auto;
         background-color: rgb(45, 55, 113);
         padding-bottom: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
         
     }
     .up-arr{
@@ -1149,7 +1184,7 @@ body{
         justify-content: space-between;
         align-items: center;
         padding: 20px;
-        margin-left: 350px;
+        margin-left: 190px;
         
     }
     .contact h2 {
@@ -1168,8 +1203,8 @@ body{
         margin-top: 2;
     }
     .up-arr {
-       margin-left: 150;
-       margin-right: 157px;
+       /* margin-left: 120; */
+       margin-right: 317px;
        margin-top: 10px;
        justify-content: center;
     }
@@ -1178,7 +1213,7 @@ body{
     .contact-middle{
     display: flex;
     margin-top: 30px;
-    margin-left: 310px;
+    margin-left: 150px;
 }
 .about-contact{
     margin-left: 80px;
@@ -1336,7 +1371,7 @@ body{
 .contact-lower{
     display: flex;
     margin-top: 80px;
-    margin-left: 400px;
+    margin-left: 230px;
     width: 70%;
     color: white;
 }
@@ -1424,199 +1459,224 @@ body{
 <!------------------------------------------------section-About us--------------------------------------------------->
 
 
-    <section class="About">
+<section class="About">
 
-        <main>
-            <div class="item"><h5>AboutUs</h5></div>
-            <div class="item2">
-                <h1 >Audiologist Hearing Clinic Dhanbad</h1>
-                <p>The Modern Hearnic Clinc in one of best modern hearing aid and speech theropy clinic in Dhanbad.</p>
-                <button class="button">learn more</button></div>
-            </div>
-            
-            <div class="item">
-                <a href=""><img src="images/my.png" alt=""></a>
-            </div>
-        </main>
-
-        <main>
-            <div class="arrow"><img src="images/arrow.png" alt=""></div>
-            <div class="sec"> <h1>Hearing problem resolving of any complexity at a fiixd price</h1></h4></div>
-            <div class="last">
-                <div class="first">
-                    <div class="f3"><b>01</b> <hr>We use modern equipments</div>
-                    <div class="f4"><b>02</b> <hr> The result meets all expectations</div>
-                </div>
-                <div class="second">
-                    <div class="f1"><b>03</b> <hr>We have the best Professionals working</div>
-                    <div class="f2"><b>04</b> <hr> We train our  Specialists</div>
-                </div>
-                <div class="third">
-                    <div class="f5"><b>05</b> <hr>Indivisual contract with the client</div>
-                    <div class="f6"><b>06</b> <hr> We have indian certifications</div>
-                </div>
-            </div>
-        </main>
+    <main class="about-left-part">
+        <div ><h2>AboutUs</h2></div>
+        <div>
+            <h1 >Audiologist Hearing Clinic Dhanbad</h1>
+            <p>The Modern Hearnic Clinc in one of best modern hearing aid and speech theropy clinic in Dhanbad.</p>
+            <button class="button">learn more</button></div>
+        </div>
         
-    </section>
+        <div >
+            <a href=""><img src="images/my.png" alt="" height="250px" width="500px"></a>
+        </div>
+    </main>
+
+    <div class="about-arr">
+        <div class="arrow"><img src="images/arrow.png" alt=""></div>
+        <div > <h1>Hearing problem resolving of any complexity at a fiixd price</h1></h4></div>
+        <div >
+    </div>
+        <div class="about-feature-part">
+            <div >
+                <div><h2>01</h2> 
+                    <hr>
+                    <p>We use modern equipments</p>
+                </div>
+                <div><h2>03</h2> 
+                    <hr> 
+                    <p>The result meets all expectations</p>
+                </div>
+            </div>
+            <div>
+                <div><h2>02</h2> 
+                    <hr>
+                    <p>We have the best Professionals working</p>
+                </div>
+                <div ><h2>04</h2> 
+                    <hr> 
+                    <p>We train our  Specialists</p>
+                </div>
+            </div>
+            <div class= "feature">
+                <div>
+                    <h2>05</h2> 
+                    <hr>
+                    <p>We use modern equipments</p>
+                </div>
+                
+            </div>
+            <div class="last-feat">
+                <div ><h2>06</h2> 
+                    <hr>
+                    <p>Indivisual contract with the client</p>
+                </div>
+                   
+            </div>
+            </div>
+           
+</section>
 
 <!---------------------------------------------section-Gallery------------------------------------------------------ -->
 
-    <section class="Gallery">
+<section class="Gallery">
         
-        <div class="section-gallery">
-            <div class="gal1">Gallery</div>
-            <div class="middle-upper">
-                <h1 >Check out our clinic great gallery</h1>
-                <button class="buton">#Clinic</button>
-                <button class="buton">#Autiology</button>
-                <button class="buton">#Therapy</button>
-                <button class="buton">#Truthfulness</button>
-                <button class="buton">#Trust</button>
-            
-            </div>
-            
-            <div class="gal3">
-                <a href=""><img src="images/Facebooks.svg" alt="Facebook" height="40" width="auto"></a>
-                <a href=""><img src="images/tel.png" alt="linkedIn" height="40" width="auto"></a>
-                <a href=""><img src="images/WhatsApps.png" alt="Whatsapp" height="40" width="auto"></a>
-                <a href=""><img src="images/twi.png" alt="Twitter" height="40" width="auto"></a>
-            </div>
+    <div class="section-gallery">
+        <div class="gal1">Gallery</div>
+        <div class="middle-upper">
+            <h1 >Check out our clinic great gallery</h1>
+            <button class="buton">#Clinic</button>
+            <button class="buton">#Autiology</button>
+            <button class="buton">#Therapy</button>
+            <button class="buton">#Truthfulness</button>
+            <button class="buton">#Trust</button>
+        
         </div>
         
+        <div class="gal3">
+            <a href=""><img src="images/Facebooks.svg" alt="Facebook" height="40" width="auto"></a>
+            <a href=""><img src="images/tel.png" alt="linkedIn" height="40" width="auto"></a>
+            <a href=""><img src="images/WhatsApps.png" alt="Whatsapp" height="40" width="auto"></a>
+            <a href=""><img src="images/twi.png" alt="Twitter" height="40" width="auto"></a>
+        </div>
+    </div>
+    
 
-        <main>
-        <div class="gallery-lower">
-            <div class="gallery-left-img">
-               <h4>01 &nbsp;&nbsp; / &nbsp;&nbsp;collection of therapy</h4>
-                <p>The boy got a 50% discount</p>
-            </div>
-            
-            <div class="drag">Drag</div>
-            <div class="gallery-right-img">
-                <h4>02 &nbsp;&nbsp;/ &nbsp;&nbsp;Therapy equipment</h4>
-                <p>Best equipment of therapy</p>
-            </div>
+    <main>
+    <div class="gallery-lower">
+        <div class="gallery-left-img">
+           <h4>01 &nbsp;&nbsp; / &nbsp;&nbsp;collection of therapy</h4>
+            <p>The boy got a 50% discount</p>
         </div>
-     
-    </main>
-    </section>
+        
+        <div class="drag">Drag</div>
+        <div class="gallery-right-img">
+            <h4>02 &nbsp;&nbsp;/ &nbsp;&nbsp;Therapy equipment</h4>
+            <p>Best equipment of therapy</p>
+        </div>
+    </div>
+ 
+</main>
+</section>
+
 
 <!--------------------------------------------------section-service------------------------------------------------------>
 
-    <section id="service-section">
+<section id="service-section">
 
 
-        <div class="service-section">
-            <div class="service1"><h4>Service</h4></div>
-            <div class="service2">
-                <h1>Excellent service of our clinic</h1>
-                <button >All</button>
-                <button >For adult</button>
-                <button >For children</button>
-                <div class="service">
-                    <h4>Diagnostic examination with consultantion an audiologist </h4>
-                    <img src="images/plus.png" alt=""  height="25" >
-                    
-                </div>
-                <hr>
+    <div class="service-section">
+        <div id="service1"><h2>Service</h2></div>
+        <div class="service2">
+            <h1>Excellent service of our clinic</h1>
+            <button id="all">All</button>
+            <button >For adult</button>
+            <button >For children</button>
+            <div class="service">
+                <h4>Diagnostic examination with consultantion an audiologist </h4>
+                <img src="images/plus.png" alt=""  height="25" >
                 
-                <div class="service">
-                    <h4>Children's audiologist </h4>
-                    <img src="images/plus.png" alt=""  height="25" >
-                </div>
-                <hr>
+            </div>
+            <hr>
+            
+            <div class="service">
+                <h4>Children's audiologist </h4>
+                <img src="images/plus.png" alt=""  height="25" >
+            </div>
+            <hr>
 
-                <div class="service">
-                    <h4>Consultantion with a Specialized therapist </h4>
-                    <img src="images/plus.png" alt=""  height="25" >
-                </div>
-                <hr>
+            <div class="service">
+                <h4>Consultantion with a Specialized therapist </h4>
+                <img src="images/plus.png" alt=""  height="25" >
+            </div>
+            <hr>
 
-                <div class="service">
-                    <h4> Consultantion with audiologist a specialist</h4>
-                    <img src="images/plus.png" alt=""  height="25" >
-                    
-                </div>
-                <hr>
-                <div class="service">
-                    <h4>Therapy for speech and hearing problem  </h4>
-                    <img src="images/plus.png" alt=""  height="25" >
-                </div>
-                <hr>
-                <div class="service">
-                    <h4>Hearing problem resolution </h4>
-                    <img src="images/plus.png" alt=""  height="25" >
-                </div>
-                <hr>
-                <div class="service">
-                    <h4>Treatment of Presbyterians </h4>
-                    <img src="images/plus.png" alt=""  height="25" >
-                </div>
-                <hr>
-                <div class="service">
-                    <h4>Therapy Treatment of dysarthria </h4>
-                    <img src="images/plus.png" alt=""  height="25" >
-                </div>
-                <hr>
-                <div class="service">
-                    <h4>Therapy treatment of high level of Amyotrophic lateral sclerosis </h4>
-                    <img src="images/plus.png" alt=""  height="25" >
-
-                </div>
-                <hr>
-                <div class="service">
-                    <h4>Treatment for sensorineural </h4>
-                    <img src="images/plus.png" alt=""  height="25" >
-
-                </div>
-                <hr>
-                <div class="service">
-                    <h4>Outpatient course of conservation treatment </h4>
-                    <img src="images/plus.png" alt=""  height="25" >
-                </div>
-                <hr>
-                <div class="service">
-                    <h4>Hardware treatment (suttering, apraxia, ANSD, sensorineural) </h4>
-                    <img src="images/plus.png" alt=""  height="25" >
+            <div class="service">
+                <h4> Consultantion with audiologist a specialist</h4>
+                <img src="images/plus.png" alt=""  height="25" >
                 
-                </div>
-                <hr>
-                <div class="service">
-                    <h4>Therapy and Aid </h4>
-                    <img src="images/plus.png" alt=""  height="25" >
-                </div>
-                <hr>
+            </div>
+            <hr>
+            <div class="service">
+                <h4>Therapy for speech and hearing problem  </h4>
+                <img src="images/plus.png" alt=""  height="25" >
+            </div>
+            <hr>
+            <div class="service">
+                <h4>Hearing problem resolution </h4>
+                <img src="images/plus.png" alt=""  height="25" >
+            </div>
+            <hr>
+            <div class="service">
+                <h4>Treatment of Presbyterians </h4>
+                <img src="images/plus.png" alt=""  height="25" >
+            </div>
+            <hr>
+            <div class="service">
+                <h4>Therapy Treatment of dysarthria </h4>
+                <img src="images/plus.png" alt=""  height="25" >
+            </div>
+            <hr>
+            <div class="service">
+                <h4>Therapy treatment of high level of Amyotrophic lateral sclerosis </h4>
+                <img src="images/plus.png" alt=""  height="25" >
+
+            </div>
+            <hr>
+            <div class="service">
+                <h4>Treatment for sensorineural </h4>
+                <img src="images/plus.png" alt=""  height="25" >
+
+            </div>
+            <hr>
+            <div class="service">
+                <h4>Outpatient course of conservation treatment </h4>
+                <img src="images/plus.png" alt=""  height="25" >
+            </div>
+            <hr>
+            <div class="service">
+                <h4>Hardware treatment (suttering, apraxia, ANSD, sensorineural) </h4>
+                <img src="images/plus.png" alt=""  height="25" >
+            
+            </div>
+            <hr>
+            <div class="service">
+                <h4>Therapy and Aid </h4>
+                <img src="images/plus.png" alt=""  height="25" >
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="service-image">
+        <div class="lower-service"> 
+            <div><p>Take a discount for a child under 5 years of age, for the first examination</p></div>
+            <div class="service-border-part">
+                <div><h1>50%</h1></div>
+                <div><img src="images/call.png" alt="" height="40px"></div>
             </div>
         </div>
-        <div class="service-image">
-            <div class="lower-service"> 
-                <div><p>Take a discount for a child under 5 years of age, for the first examination</p></div>
-                <div class="service-border-part">
-                    <div><h1>50%</h1></div>
-                    <div><img src="images/call.png" alt="" height="40px"></div>
-                </div>
-            </div>
-            <div class="lower-service-right">
-                <div class="ser-doc"><img src="images/doc2.png" alt="" height="220px" width=""></div>
-                <div class="last-part"> 
-                    <div><img src="images/inverted-mark.png" alt="" height="50px"></div>
-                    <div class="last-sec">
-                        <h5>Stand up to the sick as you world have them stand up to you in the hour of illness</h5>
-                        <p>Dr.Md</p>
-                    </div>
+        <div class="lower-service-right">
+            <div class="ser-doc"><img src="images/doc2.png" alt="" height="220px" width=""></div>
+            <div class="last-part"> 
+                <div><img src="images/inverted-mark.png" alt="" height="50px"></div>
+                <div class="last-sec">
+                    <h5>Stand up to the sick as you world have them stand up to you in the hour of illness</h5>
+                    <p>Dr.Md</p>
                 </div>
             </div>
         </div>
+    </div>
 
-    </section>
+</section>
 
 <!-----------------------------------------------------------section-Doctor--------------------------------------------------------------->
 
     <section id="Doctor-section">
 
         <div class="doctor-upper">
-            <div class="upper-d">Doctor</div>
+            <div class="upper-d"><h2>Doctor</h2></div>
             <div class="doc-middle">
               <div>
                 <h1>Aid Specialists ans audiologists</h1>
@@ -1690,7 +1750,7 @@ body{
     
     <section id="Reviews" >
         <div class="Review">
-            <div class="rev">Reviews</div>
+            <div class="rev"><h2>Reviews</h2></div>
             <div class="upper-text">
                 <h1>Feedback from our favorite customers</h1>
                 <p>We treat our customers then any other clinic. Thank you for being us!</p>
@@ -1775,7 +1835,7 @@ body{
   <section id="FAQ">
 
     <div class="faq">
-        <div class="faq-tag"><h5>FAQ</h5></div>
+        <div class="faq-tag"><h2>FAQ</h2></div>
         <div class="faq-heading"><h1>Questions from our client</h1></div>
     </div>
     <div>
@@ -1813,7 +1873,7 @@ body{
 <section id="Partners">
 
     <div class="partner">
-        <div class="part-tag"><h4>Partners</h4></div>
+        <div class="part-tag"><h2>Partners</h2></div>
         <div class="part-heading"> <h1>We work with these partners</h1></div>
     </div>
     <div class="partner-image">
@@ -1831,7 +1891,7 @@ body{
  <section id="Blog">
 
     <div class="blog">
-        <div class="blog-tag"><h5>Blog</h5></div>
+        <div class="blog-tag"><h2>Blog</h2></div>
         <div class="blog-heading"><h1>You may be intrested to konw</h1></div>
         <div class="blog-arrow">
             <div > <img src="images/arrow.png" alt=""></div>
